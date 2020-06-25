@@ -1,0 +1,22 @@
+{
+  "name": "pp-tefeta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tefeta.ts",
+  "scripts": {
+    "dev": "yarn ts-node ./tefeta.ts",
+    "build": "tsc",
+    "test": "yarn jest --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BenSaidRachid/pp-tefeta.git"
+  },
+  "author": "Rachid",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
